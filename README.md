@@ -38,7 +38,7 @@ The dataset includes over **21,000 orders** from a e-commerce platform, GameZone
 
 ---
 
-## 🛠 Methods & Tools
+##  Methods & Tools
 
 - **Python (Pandas)**: for data cleaning, filtering, and transformations
 - **Streamlit / HTML-CSS (optional)**: for UI layout
@@ -66,12 +66,14 @@ Contact me
 
 ###  Contact Me
 
-[![Email](https://img.shields.io/badge/Email-johnzapata.dev%40gmail.com-blue?style=flat&logo=gmail&logoColor=white)](mailto:contact@johnzapatanalytics.com)  
-[![Website](https://img.shields.io/badge/Website-johnzapatanalytics.com-000000?style=flat&logo=firefox&logoColor=white)](https://johnzapatanalytics.com)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-john--z--byte-0A66C2?style=flat&logo=linkedin&logoColor=white)]([https://www.linkedin.com/in/john-z-byte](https://www.linkedin.com/in/john-z-99698a115/))  
-[![Instagram](https://img.shields.io/badge/Instagram-@johnzapata.ai-E4405F?style=flat&logo=instagram&logoColor=white)]([[https://www.instagram.com/johnzapata.ai](https://www.instagram.com/johnezapatam/)](https://www.instagram.com/johnezapatam/))
+### 📬 Contact Me
 
-> Let’s build something powerful together!
+[![Email](https://img.shields.io/badge/Email-contact%40johnzapatanalytics.com-blue?style=flat&logo=gmail&logoColor=white)](mailto:contact@johnzapatanalytics.com)  
+[![Website](https://img.shields.io/badge/Website-johnzapatanalytics.com-000000?style=flat&logo=firefox&logoColor=white)](https://www.johnzapatanalytics.com/)  
+[![GitHub](https://img.shields.io/badge/GitHub-John--Z--byte-181717?style=flat&logo=github)](https://github.com/John-Z-byte)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-john--z-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/john-z-99698a115/)  
+[![Instagram](https://img.shields.io/badge/Instagram-@johnezapatam-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/johnezapatam/)
 
+> Let’s build something powerful together 💼🚀
 
 
