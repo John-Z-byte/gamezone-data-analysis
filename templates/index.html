@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GameZone Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}">
+</head>
+<body>
+  <div class="sidebar">
+    <div class="logo"><h2>GameZone</h2></div>
+    <div class="nav-menu">
+      <a href="#" class="nav-item active"><i>🏠</i><span>Dashboard</span></a>
+      <a href="#" class="nav-item"><i>📊</i><span>Reportes</span></a>
+      <a href="#" class="nav-item"><i>⚙️</i><span>Configuración</span></a>
+    </div>
+  </div>
+
+  <div class="main-content">
+    <div class="header">
+      <div>
+        <div class="greeting">Bienvenido de nuevo</div>
+        <h1 class="welcome-title">Dashboard de Ventas</h1>
+      </div>
+      <div class="header-right">
+        <div class="search-bar">
+          <i>🔍</i>
+          <input type="text" placeholder="Buscar..." />
+        </div>
+        <div class="notification-bell">
+          <span class="notification-indicator"></span>🔔
+        </div>
+      </div>
+    </div>
+
+    <div class="transfer-cards">
+      <div class="transfer-card">
+        <div class="card-icon">📦</div>
+        <div class="card-title">Total Órdenes</div>
+        <div class="card-amount">{{ total_orders }}</div>
+      </div>
+      <div class="transfer-card">
+        <div class="card-icon">💰</div>
+        <div class="card-title">Ingresos</div>
+        <div class="card-amount">${{ total_revenue }}</div>
+      </div>
+      <div class="transfer-card">
+        <div class="card-icon">🏆</div>
+        <div class="card-title">Top Producto</div>
+        <div class="card-amount">{{ top_game }}</div>
+      </div>
+    </div>
+
+    <div class="dashboard-container">
+      <div class="dashboard-main">
+        <div class="section-title">📆 Ingresos Mensuales</div>
+        <canvas id="monthlyRevenueChart" height="250"></canvas>
+      </div>
+    </div>
+  </div>
+  <div class="dashboard-main">
+  <div class="section-title">🕹️ Ventas por Plataforma</div>
+  <canvas id="platformPieChart" height="250"></canvas>
+</div>
+
+
+  <script>
+    const monthlyRevenueLabels = {{ monthly_revenue.keys()|list|tojson }};
+    const monthlyRevenueData = {{ monthly_revenue.values()|list|tojson }};
+
+    new Chart(document.getElementById('monthlyRevenueChart'), {
+      type: 'bar',
+      data: {
+        labels: monthlyRevenueLabels,
+        datasets: [{
+          label: 'Revenue ($)',
+          data: monthlyRevenueData,
+          backgroundColor: 'rgba(66, 112, 244, 0.7)'
+        }]
+      },
+      options: {
+        scales: {
+          y: { beginAtZero: true, ticks: { color: '#262a39' }},
+          x: { ticks: { color: '#262a39' }}
+        },
+        plugins: {
+          legend: { labels: { color: '#262a39' }}
+        }
+      }
+    });
+  </script>
+  <script>
+  const platformLabels = {{ platform_sales.keys()|list|tojson }};
+  const platformData = {{ platform_sales.values()|list|tojson }};
+
+  new Chart(document.getElementById('platformPieChart'), {
+    type: 'pie',
+    data: {
+      labels: platformLabels,
+      datasets: [{
+        label: 'Ventas por Plataforma',
+        data: platformData,
+        backgroundColor: [
+          'rgba(66, 112, 244, 0.8)',
+          'rgba(106, 133, 241, 0.8)',
+          'rgba(197, 208, 255, 0.8)',
+          'rgba(59, 63, 92, 0.8)'
+        ],
+        borderColor: '#fff',
+        borderWidth: 2
+      }]
+    },
+    options: {
+      plugins: {
+        legend: {
+          labels: {
+            color: '#262a39',
+            font: {
+              size: 14,
+              weight: '600'
+            }
+          },
+          position: 'bottom'
+        }
+      }
+    }
+  });
+</script>
+
+</body>
+</html>
