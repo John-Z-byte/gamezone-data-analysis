@@ -4,7 +4,7 @@ An end-to-end data analysis and visualization project based on the GameZone orde
 
 ---
 
-## 📊 Dataset Overview
+##  Dataset Overview
 
 The dataset includes over **21,000 orders** from a e-commerce platform, GameZone, with details such as:
 
@@ -16,24 +16,24 @@ The dataset includes over **21,000 orders** from a e-commerce platform, GameZone
 
 ---
 
-## 📈 Key Insights
+##  Key Insights
 
-- ** Top Product:**  
+- ### Top Product:
   The **27-inch 4K gaming monitor** was the best-selling product by revenue (~$1.9M), followed closely by the Nintendo Switch and PlayStation 5.
 
-- ** Sales by Platform:**  
+- ### Sales by Platform:
   More than **5 million USD in sales** came from **website users**, while mobile app purchases were minimal — revealing a gap/opportunity in mobile UX.
 
-- ** Marketing Channel Performance:**  
+-  ### Marketing Channel Performance:  
   **Email** campaigns outperformed social media, generating over **$600K**, showing the effectiveness of direct marketing.
 
-- ** Global Distribution:**  
+- ### Global Distribution:  
   North America, Europe, and parts of Asia are the strongest markets, indicating a global spread with high purchasing power in western regions.
 
-- ** Time Trends:**  
+- ### Time Trends: 
   Sales volume and order counts peaked in **November and December**, likely due to Black Friday and holiday campaigns.
 
-- ** Data Observations:**  
+- ### Data Observations:
   Some shipping dates occurred *before* purchase dates — possibly due to data entry or timezone errors, which were flagged during cleaning.
 
 ---
@@ -48,7 +48,7 @@ The dataset includes over **21,000 orders** from a e-commerce platform, GameZone
 
 ---
 
-## 🖼 Dashboard Preview
+##  Dashboard Preview
 
 ![image](https://github.com/user-attachments/assets/6d5679fd-6d4b-4af8-80de-31d0e6dc98ca)
 
@@ -64,7 +64,7 @@ streamlit run app.py
 ```
 Contact me
 
-### 📬 Contact Me
+###  Contact Me
 
 [![Email](https://img.shields.io/badge/Email-johnzapata.dev%40gmail.com-blue?style=flat&logo=gmail&logoColor=white)](mailto:contact@johnzapatanalytics.com)  
 [![Website](https://img.shields.io/badge/Website-johnzapatanalytics.com-000000?style=flat&logo=firefox&logoColor=white)](https://johnzapatanalytics.com)  
