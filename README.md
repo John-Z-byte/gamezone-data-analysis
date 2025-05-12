@@ -24,8 +24,8 @@ The dataset includes over **21,000 orders** from a e-commerce platform, GameZone
 - ### Sales by Platform:
   More than **5 million USD in sales** came from **website users**, while mobile app purchases were minimal — revealing a gap/opportunity in mobile UX.
 
--  ### Marketing Channel Performance:  
-  **Email** campaigns outperformed social media, generating over **$600K**, showing the effectiveness of direct marketing.
+-  ### Marketing Channel Performance:
+-  Email campaigns outperformed social media, generating over **$600K**, showing the effectiveness of direct marketing.
 
 - ### Global Distribution:  
   North America, Europe, and parts of Asia are the strongest markets, indicating a global spread with high purchasing power in western regions.
