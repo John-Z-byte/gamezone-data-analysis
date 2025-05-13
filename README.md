@@ -54,7 +54,7 @@ The dataset includes over **21,000 orders** from a e-commerce platform, GameZone
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 If using Streamlit:
 
@@ -62,9 +62,6 @@ If using Streamlit:
 pip install -r requirements.txt
 streamlit run app.py
 ```
-Contact me
-
-###  Contact Me
 
 ### 📬 Contact Me
 
@@ -74,6 +71,6 @@ Contact me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-john--z-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/john-z-99698a115/)  
 [![Instagram](https://img.shields.io/badge/Instagram-@johnezapatam-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/johnezapatam/)
 
-> Let’s build something powerful together 💼🚀
+> Let’s build something powerful together 🚀
 
 
